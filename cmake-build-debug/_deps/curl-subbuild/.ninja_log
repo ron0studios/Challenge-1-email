@@ -1,0 +1,23 @@
+# ninja log v6
+1135	1145	1728240668472018786	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	29788c4714a32550
+1092	1099	1728240668425351771	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	37d0da4f2739eb1f
+1099	1106	1728240668435351846	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	3435d0004bb3f0fd
+1135	1145	1728240668472018786	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	29788c4714a32550
+1	9	1728240667335343655	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	2fe3aaf4495c7381
+9	1092	1728240668418685055	curl-populate-prefix/src/curl-8.4.0.tar.xz	6c31b0d534e3b0ba
+1113	1120	1728240668448685279	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	91ddd58545056ead
+9	1092	1728240668418685055	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	6c31b0d534e3b0ba
+9	1092	1728240668418685055	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-8.4.0.tar.xz	6c31b0d534e3b0ba
+1092	1099	1728240668425351771	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	37d0da4f2739eb1f
+1099	1106	1728240668435351846	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	3435d0004bb3f0fd
+1113	1120	1728240668448685279	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	91ddd58545056ead
+1120	1127	1728240668455351995	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	b7d2f189f84b12e8
+1135	1145	1728240668472018786	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	29788c4714a32550
+9	1092	1728240668418685055	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	6c31b0d534e3b0ba
+1135	1145	1728240668472018786	CMakeFiles/curl-populate-complete	29788c4714a32550
+1	9	1728240667335343655	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	2fe3aaf4495c7381
+1106	1113	1728240668442018562	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	a2756be1c2de00bc
+1120	1127	1728240668455351995	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	b7d2f189f84b12e8
+1106	1113	1728240668442018562	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	a2756be1c2de00bc
+1127	1134	1728240668462018711	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	9c891d3a9e9db5a6
+1127	1134	1728240668462018711	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	9c891d3a9e9db5a6

@@ -1,0 +1,3 @@
+/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/edit_cache.dir
+/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/rebuild_cache.dir
