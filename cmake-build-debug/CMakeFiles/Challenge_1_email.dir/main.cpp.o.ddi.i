@@ -143062,10 +143062,7 @@ int main() {
     std::optional<std::string> anagramList = std::nullopt;
 
     int anagramListStart = getLocationAtRegex(anagramRawData, std::regex("<br>[a-zA-Z\\s]+<br>"));
-    std::cout << anagramRawData.size() << std::endl;
     int anagramListEnd = getLocationAtRegex(anagramRawData, std::regex("<br>[a-zA-Z\\s]*<script>"));
-    std::cout << anagramRawData.size() << std::endl;
-    std::cout << anagramListStart << "\t" << anagramListEnd << std::endl;
     anagramList = std::string(anagramRawData.begin()+anagramListStart+4,
                               anagramRawData.begin()+anagramListEnd);
 

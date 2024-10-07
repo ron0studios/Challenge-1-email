@@ -358,3 +358,9 @@
 275	281	1728331813520014674	CMakeFiles/Challenge_1_email.dir/main.cpp.o.modmap	9152e8d7837b0931
 281	5551	1728331813526681350	CMakeFiles/Challenge_1_email.dir/main.cpp.o	90c5c0564f0e374e
 5551	5711	1728331818796689020	Challenge_1_email	514713dffc34eab7
+18	276	1728332112690546854	CMakeFiles/Challenge_1_email.dir/main.cpp.o.ddi	8de4a6bf4506d9ab
+277	282	1728332112950547387	CMakeFiles/Challenge_1_email.dir/CXX.dd	9152e8d7837b0931
+277	282	1728332112950547387	/home/ron0/development/cpp-projects/SpaceCadets/Challenge-1-email/cmake-build-debug/CMakeFiles/Challenge_1_email.dir/CXXModules.json	9152e8d7837b0931
+277	282	1728332112950547387	CMakeFiles/Challenge_1_email.dir/main.cpp.o.modmap	9152e8d7837b0931
+282	5436	1728332112953880727	CMakeFiles/Challenge_1_email.dir/main.cpp.o	90c5c0564f0e374e
+5436	5592	1728332118110557991	Challenge_1_email	514713dffc34eab7
