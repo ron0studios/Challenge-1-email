@@ -143040,23 +143040,14 @@ int getLocationAtRegex(std::string str, std::regex regx, int startingFrom=0){
     return m.position();
 }
 
-
-
-
-int main() {
-    cpr::Response r = cpr::Get(cpr::Url{"https://new.wordsmith.org/anagram/anagram.cgi?anagram=tarapore&t=500&a=n"});
-
-
-
-
-
-    std::string anagramRawData = trim(getContentInTag(r.text, "blockquote"));
+std::vector<std::string> getAnagramsFromHTML(std::string text){
+    std::string anagramRawData = trim(getContentInTag(text, "blockquote"));
 
 
     int anagramStatusLoc = getLocationAtRegex(anagramRawData, std::regex("<\\/script><b>[\\s\\S]*<\\/b>"));
     if(anagramStatusLoc==anagramRawData.size()){
         std::cout << "no anagrams listed for name X" << std::endl;
-        return 0;
+        return {};
     }
     std::string anagramStatus = getContentInTag(anagramRawData, "b", anagramStatusLoc);
     std::optional<std::string> anagramList = std::nullopt;
@@ -143067,10 +143058,28 @@ int main() {
                               anagramRawData.begin()+anagramListEnd);
 
 
-    std::cout << anagramList.value() << std::endl;
+    std::string filtered;
+
+    anagramList = std::regex_replace(anagramList.value(), std::regex("<br>\\n"), "\n");
+
+    std::vector<std::string> anagrams;
+    std::string line; std::stringstream ss(anagramList.value());
+    while(std::getline(ss, line)){
+        anagrams.push_back(line);
+    }
+
+    return anagrams;
+}
+
+
+int main() {
+    cpr::Response r = cpr::Get(cpr::Url{"https://new.wordsmith.org/anagram/anagram.cgi?anagram=...&t=500&a=n"});
 
 
 
 
-    return 0;
+
+    std::vector<std::string> out = getAnagramsFromHTML(r.text);
+    for(auto i : out)
+        std::cout << i << std::endl;
 }
