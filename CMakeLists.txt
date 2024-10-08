@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(Challenge_1_email main.cpp)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
 
 include(FetchContent)
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git
